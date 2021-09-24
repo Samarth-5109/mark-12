@@ -17,3 +17,4 @@ function calculateScore(){
     quizOutput.innerText = "Your score is: " + score;
 }
     submitButton.addEventListener("click", calculateScore)
+    
