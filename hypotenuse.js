@@ -9,7 +9,7 @@ function calculateHypotenuse(){
     var sideTwo = Number(sideB.value);
 
     lengthOfHypotenuse = Math.sqrt((sideOne*sideOne) + (sideTwo*sideTwo));
-    hypoOutput.innerText = "Hypotenuse is " + lengthOfHypotenuse;
+    hypoOutput.innerText = "The Length of hypotenuse is " + lengthOfHypotenuse;
 }
 
 calculateButton.addEventListener("click", calculateHypotenuse);

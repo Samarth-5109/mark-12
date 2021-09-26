@@ -5,29 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <nav class="navbar">
+        <ul>
+            <li><a href="Is Triangle.html">Is Triangle?</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="hypotenuse.html">Hypotenuse</a></li>
+            <li><a href="area.html">Area</a></li>
+
+        </ul>
+    </nav>
     <h1>Triangle Quiz</h1>
     <form  class="quiz-form" action="">
         <div class="question-container">
             <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
-            <input name="third-angle" type="radio" value="45">
-            <label for="">45</label>
-            <input name="third-angle" type="radio" value="60">
-            <label for="">60</label>
-            <input name="third-angle" type="radio" value="90">
-            <label for="">90</label>
+            <div>
+                
+                    <div class="radio-question">
+                        <input name="third-angle" type="radio" value="45">
+                    <label for="">45</label>
+                    </div>
+                    <div class="radio-question">
+                        <input name="third-angle" type="radio" value="60">
+                    <label for="">60</label>
+                    </div>
+                    <div class="radio-question">
+                        <input name="third-angle" type="radio" value="90">
+                    <label for="">90</label>
+                    </div>
+                    
+                
+            
+            </div>
+            
         </div>
         <div class="question-container">
             <p>If a triangle has an angle of 90 degrees, what is it called?</p>
-            <input name="what-tri" type="radio" value="obtuse">
+            <div>
+                <div class="radio-question">
+                    <input name="what-tri" type="radio" value="obtuse">
             <label for="">obtuse</label>
-            <input name="what-tri" type="radio" value="acute">
+                </div>
+                <div class="radio-question">
+                    <input name="what-tri" type="radio" value="acute">
             <label for="">acute</label>
-            <input name="what-tri" type="radio" value="right angled">
+                </div>
+            
+                <div class="radio-question">
+                    <input name="what-tri" type="radio" value="right angled">
             <label for="">right angled</label>
+                </div>
+            
+            </div>
+            
 
         </div>
     </form>
-    <button id="submit-btn">Submit Form</button>
+    <div class="btn">
+        <button id="submit-btn">Submit Form</button>
+    </div>
+    
     <div id="output"></div>
 </head>
 <script src="quiz.js"></script>

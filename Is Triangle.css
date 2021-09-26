@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 138, 179);
+    color: blanchedalmond;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem;
+    background-color: rgb(30, 155, 155);
+
+}
+
+li{
+    display: inline;
+    padding: 1rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: larger;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 40%;
+    padding-top: 2rem;
+}
+
+
+
+label{
+    font-size: larger;
+    margin-bottom: 0.3rem;
+}
+
+input{
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#calculate-btn{
+    margin-top: 0.6rem;
+    padding: 0.5rem;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: blanchedalmond;
+    background-color: rgb(30, 155, 155);
+    font-size: large;
+    border: solid rgb(37, 138, 179) ;
+}
+
+#output{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
