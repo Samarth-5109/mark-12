@@ -1,7 +1,7 @@
-//var quizForm = document.querySelector(".quiz-form");
+var quizForm = document.querySelector(".quiz-form");
 var form = document.forms[0];
 //console.log(form);
-//var submitButton = document.querySelector("#submit-btn");
+var submitButton = document.querySelector("#submit-btn");
 var quizOutput  = document.querySelector("#output");
 
 var answers =   ["90", "right angled","one-right-angle","25","no"];
