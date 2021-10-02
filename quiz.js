@@ -1,10 +1,13 @@
-var quizForm = document.querySelector(".quiz-form");
-var submitButton = document.querySelector("#submit-btn");
+//var quizForm = document.querySelector(".quiz-form");
+var form = document.forms[0];
+//console.log(form);
+//var submitButton = document.querySelector("#submit-btn");
 var quizOutput  = document.querySelector("#output");
 
 var answers =   ["90", "right angled","one-right-angle","25","no"];
 
-function calculateScore(){
+function calculateScore(event){
+    event.preventDefault()
     var score  = 0;
     var index = 0;
     const formResults = new FormData(quizForm)
@@ -22,5 +25,7 @@ function calculateScore(){
     }
     
 }
-    submitButton.addEventListener("click", calculateScore)
+    // submitButton.addEventListener("click", calculateScore)
+    form.addEventListener("submit", calculateScore);
+
     
